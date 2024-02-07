@@ -1,4 +1,6 @@
-# NODE JS ESSENTIAL (REVISION)
+# NodeJS  Essential (REVISION)
 
-## TOPICS COVERED
+## Topics Covered
 ### Asynchronous Programming
+### Iterator
+### CallBack Functions (first class object?)

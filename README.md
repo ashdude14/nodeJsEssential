@@ -11,4 +11,7 @@
 ##### 1. util Module
 ##### <EventEmiiter>
 ##### Strams Buffer
-##### HTTP Response  And Request
+##### HTTP Response  And Request (res.end - browser knows all header+data+etc sent nothing more to be sent)
+### Express 
+#### How does express work?
+

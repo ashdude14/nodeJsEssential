@@ -99,6 +99,52 @@
 
 // console.log(myFunct(isEven,9));
 
+// //Creating Server
+// import { createServer } from 'http';
+// const PORT=process.env.PORT||3000;
+// const server=createServer();
 
+// server.on('request',(req,res)=>{
+ 
+//   res.end(`<h1>HI ASHISH </h1>`);
+// })
 
+// server.listen(PORT,()=>{
+//   console.log(`server started on ${PORT}`);
+// })
+
+//Stream  
+// import {readFile,readFileSync,writeFile} from 'fs';
+
+// console.log(`start`);
+// const first = readFileSync('./file1.txt','utf-8',(err)=>{
+//   console.log(err);
+// })
+// console.log(first);
+
+// for (let i=0;i<1000;i++){
+//   writeFile('./newFile1.txt','Hello King',{flag:'a'})
+// }
+
+// import { createReadStream } from 'fs';
+// import { createServer } from 'http'
+// const server=createServer();
+// const stream=createReadStream('./file1.txt',{
+//   encoding:'utf-8'});
+// server.on('request',(req,res)=>{
+ 
+// stream.on('data',(res1)=>{
+// //  stream.pipe(res1)
+  
+// res.end(res1)
+// })
+// stream.on('error',(err)=>{
+//   res.end(err);
+// })
+
+// })
+
+// server.listen(3000,()=>{
+//   console.log(`server runiing`);
+// });
 
